@@ -21,7 +21,7 @@ public class AlgoritmoAditivo {
         System.out.println("Indique cuantos numeros ri desea generar:\t");
         for(int i = 0; i < leer.nextInt(); i++) {
             vector.add(vector.get(i) + vector.get(i + n - 2));
-            System.out.println("Hola mundo");
+            System.out.println("Hola mundoooooo");
             System.out.print("X" + (i + 1) + "= " + vector.get(i + n - 1));
             double d = vector.get(i + n + 1);
             d /= (m - 1);
