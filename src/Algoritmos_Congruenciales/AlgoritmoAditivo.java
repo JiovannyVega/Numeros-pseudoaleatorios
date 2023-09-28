@@ -26,7 +26,6 @@ public class AlgoritmoAditivo {
             System.out.println("X" + (aux +i + 1) + "= " + vector.get(i + n - 1));
             double d = vector.get(i + n - 1);
             d  /= (m - 1);
-            System.out.println(d);
             System.out.println("\n\tr" + (i + 1) + "= " + Metodos.format4Dec(d));
         }
         leer.close();

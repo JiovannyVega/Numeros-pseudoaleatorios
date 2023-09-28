@@ -5,6 +5,7 @@ import java.util.Scanner;
 import Algoritmos_Congruenciales.AlgoritmoAditivo;
 import Algoritmos_Congruenciales.AlgoritmoLineal;
 import Algoritmos_Congruenciales.AlgoritmoMultiplicativo;
+import Algoritmos_Congruenciales.CongruencialCuadratico;
 import Algoritmos_no_congruenciales.CuadradosMedios;
 import Algoritmos_no_congruenciales.MultiplicadorConstante;
 import Algoritmos_no_congruenciales.ProductosMedios;
@@ -35,6 +36,9 @@ public class Main {
                 break;
             case 6:
                 AlgoritmoAditivo.inicio();
+                break;
+            case 7:
+                CongruencialCuadratico.inicio();
                 break;
             default:
                 System.out.println("Favor de elegir un numero correcto");
